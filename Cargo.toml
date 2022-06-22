@@ -6,7 +6,7 @@ license = "MIT OR Apache-2.0"
 repository = "https://github.com/HadiKhan-dev/li-stephens"
 description = "Python bindings of the li-stevens crate to allow calling the rust code from python"
 
-keywords = ["genetics","biology","DNA","python bindings"]
+keywords = ["genetics","biology","DNA","pythonBindings"]
 categories = ["mathematics"]
 include = [
     "**/*.rs",
