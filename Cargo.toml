@@ -1,9 +1,9 @@
 [package]
 name = "li_stephens_py_hkhan"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 license = "MIT OR Apache-2.0"
-repository = "https://github.com/HadiKhan-dev/li-stephens"
+repository = "https://github.com/HadiKhan-dev/li_stephens_py_hkhan"
 description = "Python bindings of the li-stevens crate to allow calling the rust code from python"
 
 keywords = ["genetics","biology","DNA","pythonBindings"]
