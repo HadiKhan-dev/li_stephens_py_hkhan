@@ -1,0 +1,30 @@
+[package]
+name = "li_stephens_py_hkhan"
+version = "0.1.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/HadiKhan-dev/li-stephens"
+description = "Python bindings of the li-stevens crate to allow calling the rust code from python"
+
+keywords = ["genetics","biology","DNA","python bindings"]
+categories = ["mathematics"]
+include = [
+    "**/*.rs",
+    "Cargo.toml",
+    "README.md",
+    "Cargo.lock",
+    "**/*.whl",
+]
+
+[lib]
+crate-type = ["cdylib"]
+
+
+[dependencies]
+numpy = "0.15"
+li-stephens = "0.1.0"
+ndarray = "0.15.4"
+
+[dependencies.pyo3]
+version = "0.15.1"
+features = ["extension-module"]
